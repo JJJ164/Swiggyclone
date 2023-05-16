@@ -70,6 +70,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         if (value!.isEmpty) {
                           return 'Please enter valid date';
                         }
+                        ////
                         return null;
                       },
                     ),
